@@ -14,13 +14,8 @@
     "Open Source Integrators,"
     "Odoo Community Association (OCA)",
     "category": "Base",
-    "depends": [
-        "auth_signup",
-        "auth_password_policy_signup",
-    ],
-    "external_dependencies": {
-        "python": ["zxcvbn"],
-    },
+    "depends": ["auth_signup", "auth_password_policy_signup"],
+    "external_dependencies": {"python": ["zxcvbn"]},
     "website": "https://github.com/OCA/server-auth",
     "license": "LGPL-3",
     "data": [
@@ -30,8 +25,6 @@
         "security/res_users_pass_history.xml",
         "views/res_company_view.xml",
     ],
-    "demo": [
-        "demo/res_users.xml",
-    ],
+    "demo": ["demo/res_users.xml"],
     "installable": True,
 }
