@@ -3,8 +3,7 @@
 
 import time
 from contextlib import contextmanager
-
-import mock
+from unittest import mock
 
 from odoo.http import SessionExpiredException
 from odoo.tests.common import TransactionCase
